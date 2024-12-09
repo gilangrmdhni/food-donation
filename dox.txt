@@ -1,0 +1,621 @@
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        </a>
+        <div class="flex md:order-2">
+          <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1" >
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+            <span class="sr-only">Search</span>
+          </button>
+          <div class="relative hidden md:block">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+              </svg>
+              <span class="sr-only">Search icon</span>
+            </div>
+            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." />
+          </div>
+          <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+          <div class="relative mt-3 md:hidden">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+              </svg>
+            </div>
+            <input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." />
+          </div>
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div
+      className={
+        test
+          ? "fixed flex w-full h-12 items-center justify-center bg-transparent mb-0 duration-700	ease-in-out	"
+          : "fixed flex w-full h-12 items-center justify-center bg-green-600 mb-0 duration-700	ease-in-out	"
+      }
+    >
+      <div>
+        <button>1</button>
+      </div>
+    </div>
+
+    {/* <div className={` ${styles.menuItem}`}>
+                            <div ><IconCirclePlus /></div>
+
+                            <p className="font-normal text-gray-500 dark:text-gray-400">Sales</p>
+                        </div> */}
+
+
+
+
+
+
+
+import styles from "@/styles/Home.module.css"
+import Image from "next/image";
+import { IconCirclePlus } from '@tabler/icons-react';
+
+const HomePage = () => {
+    return (
+<>
+        <div className="max-w-sm w-full rounded-lg shadow bg-gray-800 max-h-[500px] mt-24">
+
+            <div className={`bg-white rounded-lg ${styles.listMenu}`}>
+                <div className="flex flex-nowrap p-4">
+                    <div className="grid justify-items-center mr-2">
+                        <div className={`${styles.iconMenu}`}><Image src={'/icon/campaint.jpg'} alt="Girl in a jacket" width={30} height={30} /></div>
+                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Campaign</p>
+                    </div>
+                    <div className="grid justify-items-center">
+                        <div className={`${styles.iconMenu}`}><IconCirclePlus /></div>
+                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Sales</p>
+                    </div>
+                </div>
+            </div >
+
+            <div id="default-carousel" class="relative  bg-white rounded-lg w-96 ml-4 mb-2" data-carousel="slide">
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    </div>
+                </div>
+                <div class="bg-black absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                </div>
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px- cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+        </div >
+        
+        </>
+
+    );
+}
+
+export default HomePage;
+
+
+<div className="snap-x flex overflow-x-scroll w-5">
+
+                <div class="snap-center ...">
+                    <img src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+                </div>
+                <div class="snap-center ...">
+                    <img src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+                </div>
+                <div class="snap-center ...">
+                    <img src="https://images.unsplash.com/photo-1622890806166-111d7f6c7c97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+                </div>
+                <div class="snap-center ...">
+                    <img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+                </div>
+                <div class="snap-center ...">
+                    <img src="https://images.unsplash.com/photo-1575424909138-46b05e5919ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+                </div>
+                <div class="snap-center ...">
+                    <img src="https://images.unsplash.com/photo-1559333086-b0a56225a93c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+                </div>
+            </div>
+
+
+<div className=e297_2963>
+  <div className="e297_2964">
+    <div className="e297_2965">
+      <div className="e297_2966"></div>
+      <div className="e297_2967"></div>
+    </div>
+    <div className="e297_2968">
+      <div className="e297_2969">
+        <div className="e297_2970"></div>
+      </div>
+    </div>
+    <div className="e297_2971">
+      <div className="e297_2972">
+        <div className="e297_2973">
+          <div className="e297_2974"></div>
+        </div>
+      </div>
+    </div>
+    <div className="e297_2975">
+      <div className="e297_2976">
+        <div className="e297_2977"></div>
+        <div className="e297_2978"></div>
+      </div>
+    </div>
+    <div className="e297_2979">
+      <div className="e297_2980">
+        <div className="e297_2981">
+          <div className="e297_2982"></div>
+          <div className="e297_2983"></div>
+        </div>
+      </div>
+    </div>
+    <div className="e297_2984">
+      <div className="e297_2985"></div>
+      <div className="e297_2986">
+        <div className="e297_2987">
+          <div className="e297_2988">
+            <div className="e297_2989"></div>
+            <div className="e297_2990"></div>
+            <div className="e297_2991"></div>
+            <div className="e297_2992"></div>
+            <div className="e297_2993"></div>
+          </div>
+          <div className="e297_2994"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                <div className="place-content-center">
+                    <div className={`${styles.card}`}>
+                        <div className={`${styles.item_card}`}>
+                            <div className={`${styles.card_2925}`}>
+                                <img src={`/img/card/rectangle_70.png`} className={`${styles.card_img_home}`} alt="" />
+                                {/* <div className={`${styles.e297_2926}`}></div> */}
+                                <div className={`${styles.konten_card_home}`}>
+                                    <span className={`${styles.e297_2928}`}>Kav Barokah, Gg. Ceria I, Bahagia, Kec. Babelan, Kabupaten Bekasi, Jawa Barat 17121</span>
+                                    <span className={`${styles.e297_2929}`}>TEBAR 1000 PAKET NASI JUMAT BERKAH</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={`${styles.item_card}`}>
+                            <div className={`${styles.card_2925}`}>
+                                <img src={`/img/card/rectangle_70.png`} className={`${styles.card_img_home}`} alt="" />
+                                {/* <div className={`${styles.e297_2926}`}></div> */}
+                                <div className={`${styles.konten_card_home}`}>
+                                    <span className={`${styles.e297_2928}`}>Kav Barokah, Gg. Ceria I, Bahagia, Kec. Babelan, Kabupaten Bekasi, Jawa Barat 17121</span>
+                                    <span className={`${styles.e297_2929}`}>TEBAR 1000 PAKET NASI JUMAT BERKAH</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={`${styles.item_card}`}>
+                            <div className={`${styles.card_2925}`}>
+                                <img src={`/img/card/rectangle_70.png`} className={`${styles.card_img_home}`} alt="" />
+                                {/* <div className={`${styles.e297_2926}`}></div> */}
+                                <div className={`${styles.konten_card_home}`}>
+                                    <span className={`${styles.e297_2928}`}>Kav Barokah, Gg. Ceria I, Bahagia, Kec. Babelan, Kabupaten Bekasi, Jawa Barat 17121</span>
+                                    <span className={`${styles.e297_2929}`}>TEBAR 1000 PAKET NASI JUMAT BERKAH</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={`${styles.item_card}`}>
+                            <div className={`${styles.card_2925}`}>
+                                <img src={`/img/card/rectangle_70.png`} className={`${styles.card_img_home}`} alt="" />
+                                {/* <div className={`${styles.e297_2926}`}></div> */}
+                                <div className={`${styles.konten_card_home}`}>
+                                    <span className={`${styles.e297_2928}`}>Kav Barokah, Gg. Ceria I, Bahagia, Kec. Babelan, Kabupaten Bekasi, Jawa Barat 17121</span>
+                                    <span className={`${styles.e297_2929}`}>TEBAR 1000 PAKET NASI JUMAT BERKAH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <ol className="flex justify-center mb-4 sm:mb-5 w-full p-2">
+                <RoutStep
+                    liCss={`flex w-20 items-center after:content-[''] after:w-full after:h-1 after:inline-block  after:border-b after:border-4 after:border-primary`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-primary`}
+                    iconCss={`w-4 h-4 text-white lg:w-6 lg:h-6 `}
+                    iconName={"User"}
+                />
+                <RoutStep
+                    liCss={`flex w-20 items-center after:content-[''] after:w-full after:h-1 after:inline-block   after:border-b after:border-4 after:border-primary`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-primary`}
+                    iconCss={`w-4 h-4 lg:w-6 lg:h-6 text-white`}
+                    iconName={"Scan"}
+                />
+                <RoutStep
+                    liCss={`flex items-center`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-gray-700`}
+                    iconCss={`w-4 h-4 lg:w-6 lg:h-6 text-white`}
+                    iconName={"Password"}
+                />
+            </ol>
+
+
+
+
+https://flowbite.com/docs/forms/number-input/#pin-code-input
+<form class="max-w-sm mx-auto">
+    <div class="flex mb-2 space-x-2 rtl:space-x-reverse">
+        <div>
+            <label for="code-1" class="sr-only">First code</label>
+            <input type="text" maxlength="1" onkeyup="focusNextInput(this, 'code-1', 'code-2')" id="code-1" class="block w-9 h-9 py-3 text-sm font-extrabold text-center text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+        </div>
+        <div>
+            <label for="code-2" class="sr-only">Second code</label>
+            <input type="text" maxlength="1" onkeyup="focusNextInput(this, 'code-1', 'code-3')" id="code-2" class="block w-9 h-9 py-3 text-sm font-extrabold text-center text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+        </div>
+        <div>
+            <label for="code-3" class="sr-only">Third code</label>
+            <input type="text" maxlength="1" onkeyup="focusNextInput(this, 'code-2', 'code-4')" id="code-3" class="block w-9 h-9 py-3 text-sm font-extrabold text-center text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+        </div>
+        <div>
+            <label for="code-4" class="sr-only">Fourth code</label>
+            <input type="text" maxlength="1" onkeyup="focusNextInput(this, 'code-3', 'code-5')" id="code-4" class="block w-9 h-9 py-3 text-sm font-extrabold text-center text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+        </div>
+        <div>
+            <label for="code-5" class="sr-only">Fivth code</label>
+            <input type="text" maxlength="1" onkeyup="focusNextInput(this, 'code-4', 'code-6')" id="code-5" class="block w-9 h-9 py-3 text-sm font-extrabold text-center text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+        </div>
+        <div>
+            <label for="code-6" class="sr-only">Sixth code</label>
+            <input type="text" maxlength="1" onkeyup="focusNextInput(this, 'code-5', 'code-6')" id="code-6" class="block w-9 h-9 py-3 text-sm font-extrabold text-center text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+        </div>
+    </div>
+    <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">Please introduce the 6 digit code we sent via email.</p>
+</form>
+
+<script>
+    // use this simple function to automatically focus on the next input
+    function focusNextInput(el, prevId, nextId) {
+        if (el.value.length === 0) {
+            document.getElementById(prevId).focus();
+        } else {
+            document.getElementById(nextId).focus();
+        }
+    }
+</script>
+
+
+
+ <ol className="flex justify-center mb-4 sm:mb-5 w-full p-2">
+                <RoutStep
+                    liCss={`flex w-20 items-center after:content-[''] after:w-full after:h-1 after:inline-block  after:border-b after:border-4 after:border-primary`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-primary`}
+                    iconCss={`w-4 h-4 text-white lg:w-6 lg:h-6 `}
+                    iconName={"User"}
+                />
+                <RoutStep
+                    liCss={`flex w-20 items-center after:content-[''] after:w-full after:h-1 after:inline-block   after:border-b after:border-4 after:border-primary`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-primary`}
+                    iconCss={`w-4 h-4 lg:w-6 lg:h-6 text-white`}
+                    iconName={"Scan"}
+                />
+                <RoutStep
+                    liCss={`flex items-center`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-gray-700`}
+                    iconCss={`w-4 h-4 lg:w-6 lg:h-6 text-white`}
+                    iconName={"Password"}
+                />
+            </ol>
+
+
+            
+    // Handle input file change Foto Selfi
+    const handleFotoSelfiChange = (event) => {
+        setFotoSelfi(event.target.files[0]);
+    };
+    const handleFotoKTPChange = (event) => {
+        setFotoKTP(event.target.files[0]);
+    };
+    const handleNoKTPChange = (event) => {
+        setNoKTP(event.target.value);
+    };
+    
+
+function StepTwo({ registrasiDetonator, setRegistrasiDetonator }) {
+    const router = useRouter();
+
+    // Step Two state variables
+    const [fotoSelfi, setFotoSelfi] = useState(registrasiDetonator?.fotoSelfi ?? null);
+    const [fotoKTP, setFotoKTP] = useState(registrasiDetonator?.fotoKTP ?? null);
+    const [noKTP, setNoKTP] = useState(registrasiDetonator?.noKTP ?? '');
+
+    // Debug
+    useEffect(() => {
+        if (registrasiDetonator && registrasiDetonator.fotoSelfi) {
+            console.log('Step2 - Foto Selfi:', registrasiDetonator.fotoSelfi);
+        }
+        if (registrasiDetonator && registrasiDetonator.fotoKTP) {
+            console.log('Step2 - Foto KTP:', registrasiDetonator.fotoKTP);
+        }
+    }, [registrasiDetonator]);
+
+    // Handle input file change Foto Selfi
+    const handleFotoSelfiChange = (event) => {
+        setFotoSelfi(event.target.files[0]);
+    };
+
+    // Handle input file change Foto KTP 
+    const handleFotoKTPChange = (event) => {
+        setFotoKTP(event.target.files[0]);
+    };
+
+    // Handle input number change Foto Selfi
+    const handleNoKTPChange = (event) => {
+        setNoKTP(event.target.value);
+    };
+
+    const handleStepTwoSubmit = async (event) => {
+        event.preventDefault();
+
+        if (!fotoSelfi || !fotoKTP || !noKTP) {
+            alert('Please fill in all fields.');
+            return;
+        }
+
+        setRegistrasiDetonator((prevData) => ({
+            ...prevData,
+            fotoSelfi,
+            fotoKTP,
+            noKTP,
+        }));
+
+        try {
+            // Check if the required fields are filled
+            if (!fotoSelfi || !fotoKTP || !noKTP) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            // Function to check file size and allowed extensions
+            const validateFile = (file, maxSizeMB, allowedExtensions) => {
+                if (file.size > maxSizeMB * 1024 * 1024) {
+                    alert(`File ${file.name} exceeds the maximum size of ${maxSizeMB} MB.`);
+                    return false;
+                }
+
+                const fileExtension = file.name.split('.').pop().toLowerCase();
+                if (!allowedExtensions.includes(fileExtension)) {
+                    alert(`File ${file.name} has an invalid extension. Allowed extensions are: ${allowedExtensions.join(', ')}`);
+                    return false;
+                }
+
+                return true;
+            };
+
+            // Max file size in megabytes
+            const maxFileSizeMB = 3;
+
+            // Allowed file extensions
+            const allowedExtensions = ['png', 'jpg', 'jpeg'];
+
+            // Validate files
+            if (!validateFile(fotoSelfi, maxFileSizeMB, allowedExtensions) || !validateFile(fotoKTP, maxFileSizeMB, allowedExtensions)) {
+                return;
+            }
+
+            // Create a FormData object and append form fields
+            const formData = new FormData();
+            formData.append('fullName', registrasiDetonator.fullName);
+            formData.append('phone', registrasiDetonator.phoneNumber);
+            formData.append('email', registrasiDetonator.email);
+            formData.append('password', registrasiDetonator.password);
+            formData.append('ktp_number', noKTP);
+            formData.append('self_photo', fotoSelfi);
+            formData.append('ktp_photo', fotoKTP);
+
+            // Log the FormData for debugging purposes
+            // console.error('Data req:', formData);
+
+            // Make the Axios POST request
+            const response = await axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}detonator/registration`, formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data',
+                },
+            });
+
+            // Log the API response
+            console.log('API Response:', response.data);
+
+            // Redirect to the next step after successful registration
+            router.push('/registrasi/detonator?step=3');
+
+        } catch (error) {
+            // Log and handle errors appropriately
+            console.error('Error submitting Step Two:', error);
+            // Handle error appropriately, e.g., show a user-friendly message
+        }
+    };
+
+
+<ol className="flex justify-center mb-4 sm:mb-5 w-full p-2">
+                <RoutStep
+                    liCss={`flex w-20 items-center after:content-[''] after:w-full after:h-1 after:inline-block  after:border-b after:border-4 after:border-primary`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-primary`}
+                    iconCss={`w-4 h-4 text-white lg:w-6 lg:h-6 `}
+                    iconName={"CalendarEvent"}
+                />
+                <RoutStep
+                    liCss={`flex w-20 items-center after:content-[''] after:w-full after:h-1 after:inline-block   after:border-b after:border-4 after:border-gray-700`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-primary`}
+                    iconCss={`w-4 h-4 lg:w-6 lg:h-6 text-white`}
+                    iconName={"Map"}
+                />
+                <RoutStep
+                    liCss={`flex items-center`}
+                    divCss={`flex items-center justify-center w-10 h-10  rounded-full lg:h-12 lg:w-12 shrink-0 bg-gray-700`}
+                    iconCss={`w-4 h-4 lg:w-6 lg:h-6 text-white`}
+                    iconName={"CalendarEvent"}
+                />
+            </ol>
+
+
+
+
+
+import styles from "@/styles/Campaign.module.css"
+import { IconCirclePlus } from '@tabler/icons-react';
+import { useEffect, useState } from 'react';
+import CardFood from "../CardFood";
+import { useRouter } from "next/router";
+const FoodCampaign = () => {
+    const router = useRouter();
+    const { id } = router.query;
+    const [showFullText, setShowFullText] = useState(false);
+    const [detonatorId, setDetonatorId] = useState("");
+
+    useEffect(() => {
+        const detonator_id = sessionStorage.getItem('id');
+
+        setDetonatorId(detonator_id);
+
+        const token = sessionStorage.getItem('token');
+    }, [])
+
+    console.log('id', detonatorId);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                if (!detonatorId || !token) {
+                    throw new Error('Missing required session data');
+                }
+
+                const response = await axios.get(
+                    `https://api.foodia-dev.nuncorp.id/api/v1/merchant/filter`,
+                    {
+                        headers: {
+                            Authorization: `Bearer ${token}`,
+                        },
+                    }
+                );
+
+                console.log('data', response);
+                setDataApi(response.data.body);
+                setFilteredData(response.data.body);
+                setLoading(false);
+
+            } catch (error) {
+                console.log('error =', error);
+            }
+        };
+
+        fetchData();
+    }, [detonatorId]);
+
+    // const toggleReadMore = () => {
+    //     setShowFullText((prevShowFullText) => !prevShowFullText);
+    // };
+    return (
+        <>
+            <div className="container mx-auto mt-24 bg-white h-screen">
+                <div className="flex justify-center w-full">
+                    <h1>Food Campaign</h1>
+                </div>
+
+                <hr className="w-full h-1 mx-auto mt-2 bg-gray-300 border-0 rounded" />
+
+                <div className="items-center justify-center mt-1 w-full">
+                    <div className="w-full bg-white  text-black rounded-lg inline-flex items-center px-4 py-2.5 ">
+                        <div className="flex justify-between w-full">
+                            <div className="flex">
+                                <div className="text-left place-items-start">
+                                    <div className="mb-1 text-primary">food required :16</div>
+                                    <div className="-mt-1 font-sans text-xs text-gray-500">lack of food :10</div>
+                                </div>
+                            </div>
+                            <div className="grid place-items-center">
+                                <button className="flex rounded-lg w-20 h-10 grid grid-cols-3 gap-4 content-center text-white bg-primary p-2 hover:shadow-lg"><IconCirclePlus />add </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr className="w-full h-1 mx-auto mt-2 bg-gray-300 border-0 rounded" />
+
+
+                <div className="items-center justify-center mt-2 w-full">
+                    <CardFood
+                        to="2"
+                        img="/img/card/rectangle_70.png"
+                        title="Nasi Kuning"
+                        name="Warung Makan Amar"
+                        qty="10"
+                        status_makanan="Makanan Di Kirim"
+                        status="Approved"
+                    />
+                </div >
+
+
+            </div >
+
+        </>
+
+    );
+}
+
+export default FoodCampaign;
